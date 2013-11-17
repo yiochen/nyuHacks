@@ -3,7 +3,7 @@
 <html lang ="en">
 <head>
     <meta harset = "utf-8">
-    <title>Qasche</title>
+    <title>Qatch</title>
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "description" content ="">
     <meta name = "keywords" content = "">
@@ -15,16 +15,23 @@
 
 <body>
 
-    
-
+  <script src ="js/code.jquery.com/jquery-1.10.2.js"></script>
   <script src ="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/index.js"></script>
+
+
+<div class="commentbox">
+  <style type="text/css">
+  div.small-box {
+  overflow:scroll;
+  }</style>
+
 
     <div class= ""container"">
       <div class="span10">
       <h1>
           <p class="text-error" >
-          <img src="../static/logo.png" class="img-circle" style="width:75px","height:75px" class="span1">
           <strong>Qatch </strong> </p>
       </h1>
       </div>
@@ -38,8 +45,7 @@
     <h1>
       <div class="form">
       <form class="navbar-search">
-     
-      <input type="text" id="text" placeholder="What's your question?" style="width:400px; height:40px;">
+     <span><input type="text" id="text" placeholder="What's your question?" style="width:400px; height:40px;"></span>
 
       <button id="submit" class="btn btn-large btn-inverse" type="button"style="height:40px; width: 200px;" /> Ask The World </button>
 
@@ -63,31 +69,34 @@
   <p class="text-muted" style="margin-left:20px" >Question of the Day</p>
 </div>  
 </h1> 
-  <div class="span10">
+<div class="span10">
   <p class="text-error" style="font-size:24px;" >Thrill your mind.</p>
-  </div>
-
-             
-<br></br>
-<br></br>
-<br></br>
-<br></br><br><br>
-<div class="form">
-
-<br></form>
-
 </div>
 
-<br></br>
-<br></br>
-<br>
-<br>
+<div class="content" >
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+ $('content').load('mpq.html');
+});
+  </script>
+</div>
+
+
+<br></br><br></br><br></br><br></br><br><br><br></br><br></br><br><br>
+<div>
+  <span><input type="text" id="text" placeholder="What's your Answer?" style="width:400px; height:40px;"></span>
+  <span><button id="submit" class="btn btn-large btn-inverse" type="button"style="height:40px; width: 200px;" /> Go! </button></span>
+  <button id="submit" class="btn btn-large btn-inverse" type="button"style="height:40px; width: 200px;" /> I Don't Know </button>
+</div>
 
 
 
 <script>
   $('.btn').button('complete')
 </script>
+
+</div>
   
 
 </body>
