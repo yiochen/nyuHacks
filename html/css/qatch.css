@@ -1,3 +1,10 @@
+#fquestion{min-height: height;
+overflow: hidden;}
+.featuredquestion{
+	color:white;
+	display:inline;
+	overflow:hidden;
+}
 
 .psearch{
 	background:linear-gradient(45deg, #660000 0%,#FF6600 100%);
@@ -33,6 +40,7 @@
 
 
 .rank {
+	color:white;
 	font-size:20px;
 	float: left;
 	margin-right: 1pc;
@@ -45,7 +53,7 @@
 
 
 .title {
-
+	color:white;
 	margin-top: 8px;
 	font-size:20px;
 	font-weight: large;
