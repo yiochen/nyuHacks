@@ -1,0 +1,46 @@
+.flat-list li {
+	display:inline;
+	white-space:nowrap;
+}
+
+.space{
+	float:left;
+	margin-top: 15px;
+	color: #c6c6c6;
+	font-size:medium;
+	text-align: right;
+}
+
+
+.rank {
+	font-size:20px;
+	float: left;
+	margin-right: 1pc;
+	margin-left: 7px;
+	background: transparent;
+	overflow: hidden;
+	border-style:solid;
+	border-width:3px;
+}
+
+
+.title {
+
+	margin-top: 8px;
+	font-size:20px;
+	font-weight: large;
+}
+
+.tagline{
+
+	color:#888;
+	font-size: small;
+}
+.like{
+	padding-right:5px; 
+}
+
+.commentvote{display:inline;}
+#commentvote li{display:inline;}
+li { display: list item;
+text-align: -webkit-match-parent;}
