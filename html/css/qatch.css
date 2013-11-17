@@ -32,14 +32,22 @@
 }
 
 .tagline{
-
+	margin-left:40px;
 	color:#888;
 	font-size: small;
 }
 .like{
+	margin-left: 16px;
 	padding-right:5px; 
 }
 
+.answerbar{
+	margin-left:40px;
+}
+.answerbtn{
+	display:inline;
+	margin-bottom: 20px;
+}
 .commentvote{display:inline;}
 #commentvote li{display:inline;}
 li { display: list item;
