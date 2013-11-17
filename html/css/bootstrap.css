@@ -227,7 +227,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #001001;
 }
 
 a {
@@ -3196,14 +3196,15 @@ button.close {
 }
 
 .btn {
-  display: inline;
+  display: inline-block;
+  *display: inline;
   padding: 4px 12px;
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
- 
+  text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;

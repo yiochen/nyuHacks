@@ -1,3 +1,23 @@
+
+.psearch{
+	background:linear-gradient(45deg, #660000 0%,#FF6600 100%);
+}
+
+.qsearch{
+	background:linear-gradient(45deg, #000001 0%,#1a6687 100%);
+}
+
+
+.fsearch{
+	background:linear-gradient(45deg, #000000 0%,#1a6687 100%);
+}
+
+.featured{
+	background:linear-gradient(45deg, #020031 0%,#6d3353 100%);
+}
+.background{background:url(galaxyy.jpg);
+ background-repeat:no-repeat;}
+
 .flat-list li {
 	display:inline;
 	white-space:nowrap;
@@ -46,7 +66,7 @@
 }
 .answerbtn{
 	display:inline;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 .commentvote{display:inline;}
 #commentvote li{display:inline;}
